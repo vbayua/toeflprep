@@ -14,6 +14,7 @@
         </div> --}}
         <div class="info">
           <a href="#" class="d-block text-light text-bold">{{ Auth::user()->name }}</a>
+          {{-- Display name - nim - roles --}}
         </div>
       </div>
 
@@ -57,16 +58,48 @@
               </li>
             </ul>
           </li> --}}
-          
+
           <li class="nav-item">
             <a href="#" class="nav-link text-light">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Simple Link
-                <span class="right badge badge-danger">New</span>
+                Data Simulasi Test
+                {{-- <span class="right badge badge-danger">New</span> --}}
               </p>
             </a>
           </li>
+          
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-light">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Data Soal
+                {{-- <span class="right badge badge-danger">New</span> --}}
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-light">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Data Hasil Test
+                {{-- <span class="right badge badge-danger">New</span> --}}
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link text-light">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Data Sertifikat
+                {{-- <span class="right badge badge-danger">New</span> --}}
+              </p>
+            </a>
+          </li>
+
           <li class="nav-item">
             <a class="nav-link text-light" href="{{ route('logout') }}"
             onclick="event.preventDefault();
